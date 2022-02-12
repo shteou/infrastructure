@@ -13,5 +13,5 @@ export AWS_ACCESS_KEY_ID=$SCW_ACCESS_KEY
 export AWS_SECRET_ACCESS_KEY=$SCW_SECRET_KEY
 terraform init
 terraform plan --var-file=params/prod.tfparams
-terraform plan --var-file=params/prod.tfparams
+terraform apply --var-file=params/prod.tfparams
 ```
